@@ -1,0 +1,43 @@
+name: Update yield curve data
+
+on:
+  schedule:
+    # 22:30 UTC, Mon-Fri -- well after Treasury's typical mid-afternoon ET
+    # posting time, in both EST and EDT. Treasury only publishes once per
+    # business day, so unlike the market-signals tool this doesn't need a
+    # tight intraday cadence or a market-hours guard in the script itself.
+    - cron: "30 22 * * 1-5"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-curve:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run yield curve update
+        run: python main.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/curve.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Update yield curve data"
+            git push
+          fi
