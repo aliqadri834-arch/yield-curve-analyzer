@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-18T23:03:27Z",
-  "curve_date": "2026-08-17",
+  "generated_at": "2026-08-19T23:03:49Z",
+  "curve_date": "2026-08-18",
   "curve": [
     {
       "tenor": "1 Mo",
       "years": 0.08333333333333333,
-      "rate": 3.79
+      "rate": 3.78
     },
     {
       "tenor": "1.5 Month",
       "years": 0.125,
-      "rate": 3.8
+      "rate": 3.78
     },
     {
       "tenor": "2 Mo",
@@ -20,22 +20,22 @@
     {
       "tenor": "3 Mo",
       "years": 0.25,
-      "rate": 3.87
+      "rate": 3.86
     },
     {
       "tenor": "4 Mo",
       "years": 0.3333333333333333,
-      "rate": 3.89
+      "rate": 3.88
     },
     {
       "tenor": "6 Mo",
       "years": 0.5,
-      "rate": 3.95
+      "rate": 3.94
     },
     {
       "tenor": "1 Yr",
       "years": 1,
-      "rate": 4.0
+      "rate": 3.99
     },
     {
       "tenor": "2 Yr",
@@ -45,38 +45,38 @@
     {
       "tenor": "3 Yr",
       "years": 3,
-      "rate": 4.25
+      "rate": 4.26
     },
     {
       "tenor": "5 Yr",
       "years": 5,
-      "rate": 4.38
+      "rate": 4.37
     },
     {
       "tenor": "7 Yr",
       "years": 7,
-      "rate": 4.54
+      "rate": 4.53
     },
     {
       "tenor": "10 Yr",
       "years": 10,
-      "rate": 4.72
+      "rate": 4.71
     },
     {
       "tenor": "20 Yr",
       "years": 20,
-      "rate": 5.3
+      "rate": 5.28
     },
     {
       "tenor": "30 Yr",
       "years": 30,
-      "rate": 5.31
+      "rate": 5.28
     }
   ],
   "spreads": {
     "2yr10yr": {
       "label": "2Y-10Y",
-      "current": 0.53,
+      "current": 0.52,
       "inverted": false,
       "history": [
         {
@@ -1702,6 +1702,10 @@
         {
           "date": "2026-08-17",
           "value": 0.53
+        },
+        {
+          "date": "2026-08-18",
+          "value": 0.52
         }
       ]
     },
@@ -3332,6 +3336,10 @@
         },
         {
           "date": "2026-08-17",
+          "value": 0.85
+        },
+        {
+          "date": "2026-08-18",
           "value": 0.85
         }
       ]
