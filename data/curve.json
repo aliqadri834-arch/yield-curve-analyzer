@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-08-19T23:03:49Z",
-  "curve_date": "2026-08-18",
+  "generated_at": "2026-08-20T23:43:54Z",
+  "curve_date": "2026-08-20",
   "curve": [
     {
       "tenor": "1 Mo",
       "years": 0.08333333333333333,
-      "rate": 3.78
+      "rate": 3.8
     },
     {
       "tenor": "1.5 Month",
       "years": 0.125,
-      "rate": 3.78
+      "rate": 3.77
     },
     {
       "tenor": "2 Mo",
       "years": 0.16666666666666666,
-      "rate": 3.82
+      "rate": 3.79
     },
     {
       "tenor": "3 Mo",
       "years": 0.25,
-      "rate": 3.86
+      "rate": 3.87
     },
     {
       "tenor": "4 Mo",
@@ -50,7 +50,7 @@
     {
       "tenor": "5 Yr",
       "years": 5,
-      "rate": 4.37
+      "rate": 4.39
     },
     {
       "tenor": "7 Yr",
@@ -60,23 +60,23 @@
     {
       "tenor": "10 Yr",
       "years": 10,
-      "rate": 4.71
+      "rate": 4.69
     },
     {
       "tenor": "20 Yr",
       "years": 20,
-      "rate": 5.28
+      "rate": 5.2
     },
     {
       "tenor": "30 Yr",
       "years": 30,
-      "rate": 5.28
+      "rate": 5.23
     }
   ],
   "spreads": {
     "2yr10yr": {
       "label": "2Y-10Y",
-      "current": 0.52,
+      "current": 0.5,
       "inverted": false,
       "history": [
         {
@@ -1706,12 +1706,20 @@
         {
           "date": "2026-08-18",
           "value": 0.52
+        },
+        {
+          "date": "2026-08-19",
+          "value": 0.46
+        },
+        {
+          "date": "2026-08-20",
+          "value": 0.5
         }
       ]
     },
     "3mo10yr": {
       "label": "3M-10Y",
-      "current": 0.85,
+      "current": 0.82,
       "inverted": false,
       "history": [
         {
@@ -3341,6 +3349,14 @@
         {
           "date": "2026-08-18",
           "value": 0.85
+        },
+        {
+          "date": "2026-08-19",
+          "value": 0.79
+        },
+        {
+          "date": "2026-08-20",
+          "value": 0.82
         }
       ]
     }
