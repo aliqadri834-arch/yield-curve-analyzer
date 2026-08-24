@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-21T23:03:42Z",
-  "curve_date": "2026-08-21",
+  "generated_at": "2026-08-24T23:33:33Z",
+  "curve_date": "2026-08-24",
   "curve": [
     {
       "tenor": "1 Mo",
       "years": 0.08333333333333333,
-      "rate": 3.8
+      "rate": 3.79
     },
     {
       "tenor": "1.5 Month",
       "years": 0.125,
-      "rate": 3.77
+      "rate": 3.78
     },
     {
       "tenor": "2 Mo",
@@ -20,7 +20,7 @@
     {
       "tenor": "3 Mo",
       "years": 0.25,
-      "rate": 3.88
+      "rate": 3.87
     },
     {
       "tenor": "4 Mo",
@@ -30,12 +30,12 @@
     {
       "tenor": "6 Mo",
       "years": 0.5,
-      "rate": 3.95
+      "rate": 3.96
     },
     {
       "tenor": "1 Yr",
       "years": 1,
-      "rate": 4.03
+      "rate": 4.04
     },
     {
       "tenor": "2 Yr",
@@ -50,33 +50,33 @@
     {
       "tenor": "5 Yr",
       "years": 5,
-      "rate": 4.43
+      "rate": 4.41
     },
     {
       "tenor": "7 Yr",
       "years": 7,
-      "rate": 4.57
+      "rate": 4.55
     },
     {
       "tenor": "10 Yr",
       "years": 10,
-      "rate": 4.74
+      "rate": 4.7
     },
     {
       "tenor": "20 Yr",
       "years": 20,
-      "rate": 5.25
+      "rate": 5.21
     },
     {
       "tenor": "30 Yr",
       "years": 30,
-      "rate": 5.27
+      "rate": 5.23
     }
   ],
   "spreads": {
     "2yr10yr": {
       "label": "2Y-10Y",
-      "current": 0.5,
+      "current": 0.46,
       "inverted": false,
       "history": [
         {
@@ -1718,12 +1718,16 @@
         {
           "date": "2026-08-21",
           "value": 0.5
+        },
+        {
+          "date": "2026-08-24",
+          "value": 0.46
         }
       ]
     },
     "3mo10yr": {
       "label": "3M-10Y",
-      "current": 0.86,
+      "current": 0.83,
       "inverted": false,
       "history": [
         {
@@ -3365,6 +3369,10 @@
         {
           "date": "2026-08-21",
           "value": 0.86
+        },
+        {
+          "date": "2026-08-24",
+          "value": 0.83
         }
       ]
     }
