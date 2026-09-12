@@ -1,82 +1,82 @@
 {
-  "generated_at": "2026-09-11T00:16:58Z",
-  "curve_date": "2026-09-10",
+  "generated_at": "2026-09-12T00:24:02Z",
+  "curve_date": "2026-09-11",
   "curve": [
     {
       "tenor": "1 Mo",
       "years": 0.08333333333333333,
-      "rate": 3.91
+      "rate": 3.93
     },
     {
       "tenor": "1.5 Month",
       "years": 0.125,
-      "rate": 3.93
+      "rate": 3.99
     },
     {
       "tenor": "2 Mo",
       "years": 0.16666666666666666,
-      "rate": 4.01
+      "rate": 4.05
     },
     {
       "tenor": "3 Mo",
       "years": 0.25,
-      "rate": 4.0
+      "rate": 4.07
     },
     {
       "tenor": "4 Mo",
       "years": 0.3333333333333333,
-      "rate": 4.11
+      "rate": 4.15
     },
     {
       "tenor": "6 Mo",
       "years": 0.5,
-      "rate": 4.07
+      "rate": 4.12
     },
     {
       "tenor": "1 Yr",
       "years": 1,
-      "rate": 4.28
+      "rate": 4.35
     },
     {
       "tenor": "2 Yr",
       "years": 2,
-      "rate": 4.56
+      "rate": 4.63
     },
     {
       "tenor": "3 Yr",
       "years": 3,
-      "rate": 4.63
+      "rate": 4.69
     },
     {
       "tenor": "5 Yr",
       "years": 5,
-      "rate": 4.75
+      "rate": 4.78
     },
     {
       "tenor": "7 Yr",
       "years": 7,
-      "rate": 4.84
+      "rate": 4.87
     },
     {
       "tenor": "10 Yr",
       "years": 10,
-      "rate": 4.95
+      "rate": 4.96
     },
     {
       "tenor": "20 Yr",
       "years": 20,
-      "rate": 5.39
+      "rate": 5.38
     },
     {
       "tenor": "30 Yr",
       "years": 30,
-      "rate": 5.37
+      "rate": 5.35
     }
   ],
   "spreads": {
     "2yr10yr": {
       "label": "2Y-10Y",
-      "current": 0.39,
+      "current": 0.33,
       "inverted": false,
       "history": [
         {
@@ -1770,12 +1770,16 @@
         {
           "date": "2026-09-10",
           "value": 0.39
+        },
+        {
+          "date": "2026-09-11",
+          "value": 0.33
         }
       ]
     },
     "3mo10yr": {
       "label": "3M-10Y",
-      "current": 0.95,
+      "current": 0.89,
       "inverted": false,
       "history": [
         {
@@ -3469,6 +3473,10 @@
         {
           "date": "2026-09-10",
           "value": 0.95
+        },
+        {
+          "date": "2026-09-11",
+          "value": 0.89
         }
       ]
     }
