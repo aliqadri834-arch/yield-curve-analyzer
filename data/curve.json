@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-15T00:43:36Z",
-  "curve_date": "2026-09-14",
+  "generated_at": "2026-09-16T00:33:26Z",
+  "curve_date": "2026-09-15",
   "curve": [
     {
       "tenor": "1 Mo",
       "years": 0.08333333333333333,
-      "rate": 3.94
+      "rate": 3.93
     },
     {
       "tenor": "1.5 Month",
@@ -25,58 +25,58 @@
     {
       "tenor": "4 Mo",
       "years": 0.3333333333333333,
-      "rate": 4.18
+      "rate": 4.19
     },
     {
       "tenor": "6 Mo",
       "years": 0.5,
-      "rate": 4.18
+      "rate": 4.17
     },
     {
       "tenor": "1 Yr",
       "years": 1,
-      "rate": 4.37
+      "rate": 4.39
     },
     {
       "tenor": "2 Yr",
       "years": 2,
-      "rate": 4.65
+      "rate": 4.67
     },
     {
       "tenor": "3 Yr",
       "years": 3,
-      "rate": 4.73
+      "rate": 4.76
     },
     {
       "tenor": "5 Yr",
       "years": 5,
-      "rate": 4.8
+      "rate": 4.83
     },
     {
       "tenor": "7 Yr",
       "years": 7,
-      "rate": 4.88
+      "rate": 4.91
     },
     {
       "tenor": "10 Yr",
       "years": 10,
-      "rate": 4.97
+      "rate": 5.0
     },
     {
       "tenor": "20 Yr",
       "years": 20,
-      "rate": 5.37
+      "rate": 5.4
     },
     {
       "tenor": "30 Yr",
       "years": 30,
-      "rate": 5.34
+      "rate": 5.36
     }
   ],
   "spreads": {
     "2yr10yr": {
       "label": "2Y-10Y",
-      "current": 0.32,
+      "current": 0.33,
       "inverted": false,
       "history": [
         {
@@ -1778,12 +1778,16 @@
         {
           "date": "2026-09-14",
           "value": 0.32
+        },
+        {
+          "date": "2026-09-15",
+          "value": 0.33
         }
       ]
     },
     "3mo10yr": {
       "label": "3M-10Y",
-      "current": 0.86,
+      "current": 0.89,
       "inverted": false,
       "history": [
         {
@@ -3485,6 +3489,10 @@
         {
           "date": "2026-09-14",
           "value": 0.86
+        },
+        {
+          "date": "2026-09-15",
+          "value": 0.89
         }
       ]
     }
