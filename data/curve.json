@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-06T02:22:11Z",
-  "curve_date": "2026-10-05",
+  "generated_at": "2026-10-07T01:40:54Z",
+  "curve_date": "2026-10-06",
   "curve": [
     {
       "tenor": "1 Mo",
       "years": 0.08333333333333333,
-      "rate": 4.05
+      "rate": 4.06
     },
     {
       "tenor": "1.5 Month",
       "years": 0.125,
-      "rate": 4.1
+      "rate": 4.12
     },
     {
       "tenor": "2 Mo",
@@ -20,63 +20,63 @@
     {
       "tenor": "3 Mo",
       "years": 0.25,
-      "rate": 4.22
+      "rate": 4.21
     },
     {
       "tenor": "4 Mo",
       "years": 0.3333333333333333,
-      "rate": 4.27
+      "rate": 4.26
     },
     {
       "tenor": "6 Mo",
       "years": 0.5,
-      "rate": 4.3
+      "rate": 4.28
     },
     {
       "tenor": "1 Yr",
       "years": 1,
-      "rate": 4.47
+      "rate": 4.46
     },
     {
       "tenor": "2 Yr",
       "years": 2,
-      "rate": 4.84
+      "rate": 4.79
     },
     {
       "tenor": "3 Yr",
       "years": 3,
-      "rate": 4.97
+      "rate": 4.88
     },
     {
       "tenor": "5 Yr",
       "years": 5,
-      "rate": 5.06
+      "rate": 5.03
     },
     {
       "tenor": "7 Yr",
       "years": 7,
-      "rate": 5.19
+      "rate": 5.15
     },
     {
       "tenor": "10 Yr",
       "years": 10,
-      "rate": 5.31
+      "rate": 5.27
     },
     {
       "tenor": "20 Yr",
       "years": 20,
-      "rate": 5.7
+      "rate": 5.68
     },
     {
       "tenor": "30 Yr",
       "years": 30,
-      "rate": 5.66
+      "rate": 5.64
     }
   ],
   "spreads": {
     "2yr10yr": {
       "label": "2Y-10Y",
-      "current": 0.47,
+      "current": 0.48,
       "inverted": false,
       "history": [
         {
@@ -1838,12 +1838,16 @@
         {
           "date": "2026-10-05",
           "value": 0.47
+        },
+        {
+          "date": "2026-10-06",
+          "value": 0.48
         }
       ]
     },
     "3mo10yr": {
       "label": "3M-10Y",
-      "current": 1.09,
+      "current": 1.06,
       "inverted": false,
       "history": [
         {
@@ -3605,6 +3609,10 @@
         {
           "date": "2026-10-05",
           "value": 1.09
+        },
+        {
+          "date": "2026-10-06",
+          "value": 1.06
         }
       ]
     }
