@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-10-21T00:42:30Z",
-  "curve_date": "2026-10-20",
+  "generated_at": "2026-10-22T00:46:04Z",
+  "curve_date": "2026-10-21",
   "curve": [
     {
       "tenor": "1 Mo",
       "years": 0.08333333333333333,
-      "rate": 4.1
+      "rate": 4.09
     },
     {
       "tenor": "1.5 Month",
       "years": 0.125,
-      "rate": 4.13
+      "rate": 4.12
     },
     {
       "tenor": "2 Mo",
       "years": 0.16666666666666666,
-      "rate": 4.17
+      "rate": 4.16
     },
     {
       "tenor": "3 Mo",
       "years": 0.25,
-      "rate": 4.26
+      "rate": 4.25
     },
     {
       "tenor": "4 Mo",
@@ -30,37 +30,37 @@
     {
       "tenor": "6 Mo",
       "years": 0.5,
-      "rate": 4.36
+      "rate": 4.35
     },
     {
       "tenor": "1 Yr",
       "years": 1,
-      "rate": 4.51
+      "rate": 4.52
     },
     {
       "tenor": "2 Yr",
       "years": 2,
-      "rate": 4.79
+      "rate": 4.81
     },
     {
       "tenor": "3 Yr",
       "years": 3,
-      "rate": 4.86
+      "rate": 4.89
     },
     {
       "tenor": "5 Yr",
       "years": 5,
-      "rate": 4.94
+      "rate": 4.95
     },
     {
       "tenor": "7 Yr",
       "years": 7,
-      "rate": 5.02
+      "rate": 5.03
     },
     {
       "tenor": "10 Yr",
       "years": 10,
-      "rate": 5.12
+      "rate": 5.13
     },
     {
       "tenor": "20 Yr",
@@ -76,7 +76,7 @@
   "spreads": {
     "2yr10yr": {
       "label": "2Y-10Y",
-      "current": 0.33,
+      "current": 0.32,
       "inverted": false,
       "history": [
         {
@@ -1878,12 +1878,16 @@
         {
           "date": "2026-10-20",
           "value": 0.33
+        },
+        {
+          "date": "2026-10-21",
+          "value": 0.32
         }
       ]
     },
     "3mo10yr": {
       "label": "3M-10Y",
-      "current": 0.86,
+      "current": 0.88,
       "inverted": false,
       "history": [
         {
@@ -3685,6 +3689,10 @@
         {
           "date": "2026-10-20",
           "value": 0.86
+        },
+        {
+          "date": "2026-10-21",
+          "value": 0.88
         }
       ]
     }
