@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-31T01:41:17Z",
-  "curve_date": "2026-10-30",
+  "generated_at": "2026-11-03T03:31:21Z",
+  "curve_date": "2026-11-02",
   "curve": [
     {
       "tenor": "1 Mo",
       "years": 0.08333333333333333,
-      "rate": 4.06
+      "rate": 4.05
     },
     {
       "tenor": "1.5 Month",
@@ -20,12 +20,12 @@
     {
       "tenor": "3 Mo",
       "years": 0.25,
-      "rate": 4.16
+      "rate": 4.21
     },
     {
       "tenor": "4 Mo",
       "years": 0.3333333333333333,
-      "rate": 4.18
+      "rate": 4.19
     },
     {
       "tenor": "6 Mo",
@@ -35,12 +35,12 @@
     {
       "tenor": "1 Yr",
       "years": 1,
-      "rate": 4.36
+      "rate": 4.38
     },
     {
       "tenor": "2 Yr",
       "years": 2,
-      "rate": 4.56
+      "rate": 4.59
     },
     {
       "tenor": "3 Yr",
@@ -50,33 +50,33 @@
     {
       "tenor": "5 Yr",
       "years": 5,
-      "rate": 4.71
+      "rate": 4.7
     },
     {
       "tenor": "7 Yr",
       "years": 7,
-      "rate": 4.8
+      "rate": 4.79
     },
     {
       "tenor": "10 Yr",
       "years": 10,
-      "rate": 4.94
+      "rate": 4.91
     },
     {
       "tenor": "20 Yr",
       "years": 20,
-      "rate": 5.34
+      "rate": 5.31
     },
     {
       "tenor": "30 Yr",
       "years": 30,
-      "rate": 5.31
+      "rate": 5.28
     }
   ],
   "spreads": {
     "2yr10yr": {
       "label": "2Y-10Y",
-      "current": 0.38,
+      "current": 0.32,
       "inverted": false,
       "history": [
         {
@@ -1910,12 +1910,16 @@
         {
           "date": "2026-10-30",
           "value": 0.38
+        },
+        {
+          "date": "2026-11-02",
+          "value": 0.32
         }
       ]
     },
     "3mo10yr": {
       "label": "3M-10Y",
-      "current": 0.78,
+      "current": 0.7,
       "inverted": false,
       "history": [
         {
@@ -3749,6 +3753,10 @@
         {
           "date": "2026-10-30",
           "value": 0.78
+        },
+        {
+          "date": "2026-11-02",
+          "value": 0.7
         }
       ]
     }
