@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-27T04:21:24Z",
-  "curve_date": "2026-11-25",
+  "generated_at": "2026-11-28T04:01:55Z",
+  "curve_date": "2026-11-27",
   "curve": [
     {
       "tenor": "1 Mo",
@@ -10,7 +10,7 @@
     {
       "tenor": "1.5 Month",
       "years": 0.125,
-      "rate": 4.27
+      "rate": 4.28
     },
     {
       "tenor": "2 Mo",
@@ -20,63 +20,63 @@
     {
       "tenor": "3 Mo",
       "years": 0.25,
-      "rate": 4.34
+      "rate": 4.35
     },
     {
       "tenor": "4 Mo",
       "years": 0.3333333333333333,
-      "rate": 4.37
+      "rate": 4.38
     },
     {
       "tenor": "6 Mo",
       "years": 0.5,
-      "rate": 4.44
+      "rate": 4.46
     },
     {
       "tenor": "1 Yr",
       "years": 1,
-      "rate": 4.56
+      "rate": 4.61
     },
     {
       "tenor": "2 Yr",
       "years": 2,
-      "rate": 4.61
+      "rate": 4.69
     },
     {
       "tenor": "3 Yr",
       "years": 3,
-      "rate": 4.64
+      "rate": 4.72
     },
     {
       "tenor": "5 Yr",
       "years": 5,
-      "rate": 4.65
+      "rate": 4.74
     },
     {
       "tenor": "7 Yr",
       "years": 7,
-      "rate": 4.74
+      "rate": 4.82
     },
     {
       "tenor": "10 Yr",
       "years": 10,
-      "rate": 4.85
+      "rate": 4.94
     },
     {
       "tenor": "20 Yr",
       "years": 20,
-      "rate": 5.28
+      "rate": 5.36
     },
     {
       "tenor": "30 Yr",
       "years": 30,
-      "rate": 5.24
+      "rate": 5.33
     }
   ],
   "spreads": {
     "2yr10yr": {
       "label": "2Y-10Y",
-      "current": 0.24,
+      "current": 0.25,
       "inverted": false,
       "history": [
         {
@@ -1978,12 +1978,16 @@
         {
           "date": "2026-11-25",
           "value": 0.24
+        },
+        {
+          "date": "2026-11-27",
+          "value": 0.25
         }
       ]
     },
     "3mo10yr": {
       "label": "3M-10Y",
-      "current": 0.51,
+      "current": 0.59,
       "inverted": false,
       "history": [
         {
@@ -3885,6 +3889,10 @@
         {
           "date": "2026-11-25",
           "value": 0.51
+        },
+        {
+          "date": "2026-11-27",
+          "value": 0.59
         }
       ]
     }
